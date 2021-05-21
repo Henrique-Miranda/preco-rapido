@@ -17,7 +17,7 @@ async function listingPrice(desc, price, quantity = 1) {
     `https://api.mercadolibre.com/sites/MLB/listing_prices?price=${price}&category_id=${cat_id}&quantity=${quantity}&cy_id=BRL`
   );
   console.log([domain_name, cat_name]);
-  console.log([res.data[0], res.data[2]]);
+  console.log({ Premium: res.data[0], Classico: res.data[2] });
 }
 
 listingPrice('caneta touch', 100);

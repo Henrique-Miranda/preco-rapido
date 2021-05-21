@@ -2,7 +2,7 @@
   "name": "npm",
   "version": "1.0.0",
   "description": "",
-  "main": "index.mjs",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Henrique-Miranda/preco-rapido/issues"
   },
-  "homepage": "https://github.com/Henrique-Miranda/preco-rapido#readme"
+  "homepage": "https://github.com/Henrique-Miranda/preco-rapido#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
 }
